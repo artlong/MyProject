@@ -1,0 +1,67 @@
+[12-23 09:33:56, HelloExcelFunc, 247] HelloExcelFunc done!
+[12-23 09:37:43, HelloExcelFunc, 137] tryPoi1 done!
+[12-23 09:39:13, HelloExcelFunc, 135] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 09:39:13, HelloExcelFunc, 137] tryPoi1 done!
+[12-23 09:40:22, HelloExcelFunc, 137] tryPoi1 done!
+[12-23 09:40:55, HelloExcelFunc, 137] tryPoi1 done!
+[12-23 09:59:25, HelloExcelFunc, 248] HelloExcelFunc done!
+[12-23 09:59:35, HelloExcelFunc, 136] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 09:59:35, HelloExcelFunc, 138] tryPoi1 done!
+[12-23 14:41:51, HelloExcelFunc, 136] java.io.FileNotFoundException: .\xls\resultFuncA.xls (系統找不到指定的檔案。)
+[12-23 14:41:51, HelloExcelFunc, 138] tryPoi1 done!
+[12-23 14:42:09, HelloExcelFunc, 248] HelloExcelFunc done!
+[12-23 14:42:18, HelloExcelFunc, 136] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 14:42:18, HelloExcelFunc, 138] tryPoi1 done!
+[12-23 15:12:51, HelloExcelFunc, 136] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 15:12:51, HelloExcelFunc, 138] tryPoi1 done!
+[12-23 15:13:47, HelloExcelFunc, 136] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 15:13:47, HelloExcelFunc, 138] tryPoi1 done!
+[12-23 15:25:30, HelloExcelFunc, 136] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 15:25:30, HelloExcelFunc, 138] tryPoi1 done!
+[12-23 15:56:56, HelloExcelFunc, 136] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 15:56:56, HelloExcelFunc, 138] tryPoi1 done!
+[12-23 16:10:07, HelloExcelFunc, 136] java.lang.NullPointerException
+[12-23 16:10:07, HelloExcelFunc, 138] tryPoi1 done!
+[12-23 16:25:52, HelloExcelFunc, 148] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 16:25:52, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 16:36:06, HelloExcelFunc, 148] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 16:36:06, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 16:39:46, HelloExcelFunc, 148] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 16:39:46, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 16:43:27, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 16:46:17, HelloExcelFunc, 148] java.lang.RuntimeException: No external workbook with name './resultFuncB.xls'
+[12-23 16:46:17, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 16:51:41, HelloExcelFunc, 148] org.apache.poi.ss.formula.FormulaParseException: Parse error near char 1 '/' in specified formula './[resultFuncB.xls]A1!A2'. Expected Integer
+[12-23 16:51:41, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 16:52:25, HelloExcelFunc, 148] org.apache.poi.ss.formula.FormulaParseException: D' is not a proper reference.
+[12-23 16:52:25, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 16:54:18, HelloExcelFunc, 148] org.apache.poi.ss.formula.FormulaParseException: Parse error near char 1 '\' in specified formula '.\xls\[resultFuncB.xls]A1!A2'. Expected Integer
+[12-23 16:54:18, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 16:55:30, HelloExcelFunc, 148] org.apache.poi.ss.formula.FormulaParseException: D' is not a proper reference.
+[12-23 16:55:30, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 16:58:26, HelloExcelFunc, 148] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 16:58:26, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 17:04:57, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 17:05:24, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 17:10:58, HelloExcelFunc, 148] java.io.FileNotFoundException: .\xls\resultFuncA.xls (程序無法存取檔案，因為檔案正由另一個程序使用。)
+[12-23 17:10:58, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 17:11:21, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 17:11:47, HelloExcelFunc, 260] HelloExcelFunc done!
+[12-23 17:12:03, HelloExcelFunc, 148] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 17:12:03, HelloExcelFunc, 150] tryPoi1 done!
+[12-23 17:15:24, HelloExcelFunc, 151] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 17:15:24, HelloExcelFunc, 153] tryPoi1 done!
+[12-23 17:54:31, HelloExcelFunc, 258] HelloExcelFunc done!
+[12-23 17:54:47, HelloExcelFunc, 146] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 17:54:47, HelloExcelFunc, 148] tryPoi1 done!
+[12-23 17:59:35, HelloExcelFunc, 146] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 17:59:35, HelloExcelFunc, 148] tryPoi1 done!
+[12-23 18:14:06, HelloExcelFunc, 152] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 18:14:06, HelloExcelFunc, 154] tryPoi1 done!
+[12-23 18:17:52, HelloExcelFunc, 156] tryPoi1 done!
+[12-23 18:24:46, HelloExcelFunc, 160] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 18:24:46, HelloExcelFunc, 162] tryPoi1 done!
+[12-23 18:28:53, HelloExcelFunc, 126] org.apache.poi.ss.formula.WorkbookEvaluator@11d0a4f
+[12-23 18:28:53, HelloExcelFunc, 126] org.apache.poi.ss.formula.WorkbookEvaluator@18fd984
+[12-23 18:28:53, HelloExcelFunc, 161] java.lang.RuntimeException: No external workbook with name 'resultFuncB.xls'
+[12-23 18:28:53, HelloExcelFunc, 163] tryPoi1 done!

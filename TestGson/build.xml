@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TestGson" default="local" basedir=".">
+
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+
+  <target name="copy" depends="plJumpOc">
+	<copy file="${basedir}/tempWeb.xml" tofile="${basedir}/web.xml" overwrite="true"/>
+  </target>
+	
+  <target name="plJumpOc">
+  	<input addproperty="plJumpOc" defaultvalue="N" message="PL 要跳轉 OC 嗎 ?" validargs="Y,N"></input>
+  </target>
+	
+  <target name ="local" description="default for TestGson">
+  	<echo>Hi TestGson loc</echo>
+  	<antcall inheritAll="true" target="genWebXml"/>
+  </target>
+	
+  <target name="sit" description="sit">
+  	<echo>Hi TestGson sit</echo>
+  	<antcall inheritAll="true" target="genWebXml"/>
+  </target>
+	
+  <target name="genWebXml" description="產生web.xml" depends="copy">
+  	<if>
+  		<equals arg1="${plJumpOc}" arg2="Y"/>
+  		<then>
+  			<echo message="PL 會跳轉  OC"/>
+  			<replace file="${basedir}/web.xml" encoding="UTF-8">
+  				<replacefilter token="@tagPlJumpOcBeg@" value=""/>
+  				<replacefilter token="@tagPlJumpOcEnd@" value=""/>
+  			</replace>
+  		</then>
+  		<else>
+  			<echo message="PL 不跳轉  OC"/>
+  			<replace file="${basedir}/web.xml" encoding="UTF-8">
+  				<replacefilter token="@tagPlJumpOcBeg@" value="&lt;!--"/>
+  				<replacefilter token="@tagPlJumpOcEnd@" value="--&gt;"/>
+  			</replace>
+  		</else>
+  	</if>
+  </target>
+</project>

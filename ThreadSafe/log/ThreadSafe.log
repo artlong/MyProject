@@ -1,0 +1,23 @@
+[testone][2011/05/09 17:20:08.000, thread.simpleDateFormat.nts.TestUtilityNTS,16,INFO]  *** Test UtilityNTS beg *** 
+[testone][2011/05/09 17:20:08.000, thread.simpleDateFormat.nts.UtilityThreadOneNTS,20,INFO]     AAAAA BEGIN(30000), STR_DATE(2011/03/09)
+[testone][2011/05/09 17:20:08.000, thread.simpleDateFormat.nts.UtilityThreadOneNTS,18,INFO]     BBBBB BEGIN(200), STR_DATE(2011/04/09)
+[testone][2011/05/09 17:20:08.000, thread.simpleDateFormat.nts.UtilityThreadOneNTS,20,INFO]     CCCCC BEGIN(30000), STR_DATE(2011/05/09)
+[testone][2011/05/09 17:20:08.109, thread.simpleDateFormat.nts.UtilityThreadOneNTS,22,INFO]     BBBBB END !!!
+[testone][2011/05/09 17:20:08.109, thread.simpleDateFormat.nts.UtilityThreadOneNTS,26,ERROR]     CCCCC BEGIN(30000), STR_DATE(2011/05/09) No:[294] Error
+[testone][2011/05/09 17:20:08.109, thread.simpleDateFormat.nts.UtilityThreadOneNTS,27,ERROR] java.lang.NumberFormatException: For input string: "2011年 04 月 09 日"
+java.lang.NumberFormatException: For input string: "2011年 04 月 09 日"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
+	at java.lang.Integer.parseInt(Integer.java:458)
+	at java.lang.Integer.parseInt(Integer.java:499)
+	at thread.simpleDateFormat.nts.UtilityThreadOneNTS.run(UtilityThreadOneNTS.java:24)
+[testone][2011/05/09 17:20:08.875, thread.simpleDateFormat.nts.UtilityThreadOneNTS,30,INFO]     CCCCC END !!!
+[testone][2011/05/09 17:20:08.875, thread.simpleDateFormat.nts.UtilityThreadOneNTS,30,INFO]     AAAAA END !!!
+[testone][2011/05/09 17:20:08.875, thread.simpleDateFormat.nts.TestUtilityNTS,26,INFO]  *** Test UtilityNTS end *** 
+[testone][2011/05/09 17:21:32.265, thread.simpleDateFormat.ts.TestUtilityTS,16,INFO]  *** Test UtilityTS beg *** 
+[testone][2011/05/09 17:21:32.265, thread.simpleDateFormat.ts.UtilityThreadOneTS,20,INFO]     AAAAA BEGIN(30000), STR_DATE(2011/03/09)
+[testone][2011/05/09 17:21:32.265, thread.simpleDateFormat.ts.UtilityThreadOneTS,20,INFO]     CCCCC BEGIN(30000), STR_DATE(2011/05/09)
+[testone][2011/05/09 17:21:32.265, thread.simpleDateFormat.ts.UtilityThreadOneTS,18,INFO]     BBBBB BEGIN(30000), STR_DATE(2011/04/09)
+[testone][2011/05/09 17:21:33.984, thread.simpleDateFormat.ts.UtilityThreadOneTS,22,INFO]     BBBBB END !!!
+[testone][2011/05/09 17:21:34.375, thread.simpleDateFormat.ts.UtilityThreadOneTS,30,INFO]     CCCCC END !!!
+[testone][2011/05/09 17:21:34.421, thread.simpleDateFormat.ts.UtilityThreadOneTS,30,INFO]     AAAAA END !!!
+[testone][2011/05/09 17:21:34.421, thread.simpleDateFormat.ts.TestUtilityTS,27,INFO]  *** Test UtilityTS end *** 
